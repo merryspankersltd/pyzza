@@ -13,6 +13,6 @@
 
 >>> pr = pyzza.repo(r'/path/to/gtfs/zips')
 
->>> pr.get_expiry(pr)
+>>> pr.get_expiry()
 
 {['Planet Express': ...]}
