@@ -1,6 +1,9 @@
+VERSION = '0.9 Napoletana'
+DESCRIPTION = '''just some utilities and handlers for gtfs
+with basilico and mozzarella'''
 
 def version():
-    return '0.9 napoletana'
+    return VERSION
 
 def help():
     return '''
