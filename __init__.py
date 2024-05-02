@@ -24,7 +24,7 @@ https://mrcagney.github.io/gtfs_kit_docs/
 """
 
 from .main import Repo
-from .constants import VERSION, USAGE
+from .constants import VERSION, USAGE, ZAZIE_DIR
 
 __all__ = ['Repo']
 
@@ -36,3 +36,7 @@ def version():
 def usage():
     """print usage"""
     print(USAGE)
+
+def zazie_dir():
+    """print zazie default dir"""
+    print(ZAZIE_DIR)
